@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="chap06">
+		<class>com.example.HuniApplication</class>
+		<class>com.example.ServletInitializer</class>
+		<class>com.example.config.CustomConfig</class>
+		<class>com.example.config.SiteMeshConfig</class>
+		<class>com.example.controller.jsp.AirportController</class>
+		<class>com.example.controller.jsp.BootStrapController</class>
+		<class>com.example.controller.jsp.CarrierController</class>
+		<class>com.example.controller.jsp.CityController</class>
+		<class>com.example.controller.jsp.CountryController</class>
+		<class>com.example.controller.jsp.DeptController</class>
+		<class>com.example.controller.jsp.EmpController</class>
+		<class>com.example.controller.jsp.HiveController</class>
+		<class>com.example.controller.jsp.MainController</class>
+		<class>com.example.controller.jsp.OntimeController</class>
+		<class>com.example.controller.jsp.WebBoardController</class>
+		<class>com.example.controller.thymeleaf.WebBoardsController</class>
+		<class>com.example.debugging.CalcuratorExample</class>
+		<class>com.example.domain.AirportVO</class>
+		<class>com.example.domain.CarrierVO</class>
+		<class>com.example.domain.CityVO</class>
+		<class>com.example.domain.CountryVO</class>
+		<class>com.example.domain.DeptVO</class>
+		<class>com.example.domain.EmpVO</class>
+		<class>com.example.domain.OntimeVO</class>
+		<class>com.example.domain.WebBoardVO</class>
+		<class>com.example.persistence.AirportRepository</class>
+		<class>com.example.persistence.CarrierRepository</class>
+		<class>com.example.persistence.CityRepository</class>
+		<class>com.example.persistence.CountryRepository</class>
+		<class>com.example.persistence.DeptRepository</class>
+		<class>com.example.persistence.EmpRepository</class>
+		<class>com.example.persistence.OntimeRepository</class>
+		<class>com.example.persistence.WebBoardRepository</class>
+		<class>com.example.vo.PageMaker</class>
+		<class>com.example.vo.PageVO</class>
+	</persistence-unit>
+</persistence>
